@@ -1,0 +1,178 @@
+h1, h2, h3, h4, h5, h6{
+    color: beige;
+}
+
+p{
+    color: black;
+}
+
+body{
+    background-color: olive;
+}
+
+.gym-pic{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.gym{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+
+    .container-gym{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .box1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        color: black;
+        background-color: aquamarine;
+        
+        
+        
+    }
+    .box2{
+        width: 50%;
+        height: 100px;
+        color: black;
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .box3{
+        width: 50%;
+        height: 100px;
+        color: black;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+
+h1.github{
+    
+    text-align: center;
+    
+}
+.github_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+a.Github_link{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-tags{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.input_tags{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contain{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.your_name, .your_password{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.name, .password{
+    width: 100%;
+    padding: 10px;
+}
+
+.gender-option_country_subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gender, .country, .subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.subscribe{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.option{
+    width: 50%;
+}
+
+.day1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    font-size: 20px;
+    font-weight: bold;
+    color: beige;
+
+    
+}
+
+
+
+
+
+
+
