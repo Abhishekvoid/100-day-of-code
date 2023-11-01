@@ -1,0 +1,156 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+}
+
+.contain{
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.cards-container{
+    max-width: 1320px;
+    width: 100%;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.h2-heading{
+    font-size:1.5rem;
+    color: #1e3932;
+}
+
+.view-more{
+    color: #00754a;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+.card-row{
+    display: flex;
+}
+
+.card-1, .card-2, .card-3{
+    width: 33.33%;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+  border-radius: 8px;
+  cursor: pointer;
+   margin-right: 26px;
+
+}
+
+.card-3{
+    margin: 0;
+}
+
+.product-img{
+    
+    width: 100%;
+    height: 240px;
+  
+}
+
+.product-img-1{
+    width: 100%;
+    
+    object-fit: inherit;
+    height: inherit;
+}
+
+.product-info{
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px 24px 18px;
+}
+
+.upper-info{
+    margin-bottom: .25em;
+}
+
+.new-launch{
+
+}
+
+.new-launch-span{
+    padding: 2px 3px;
+    line-height: 10px;
+}
+
+.product-name-h5{
+    line-height: 16.8px;
+}
+.diet-info{
+  
+   margin-bottom: .75rem;
+}
+
+.diet-info-span{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16.316px;
+    color: #6c757d 
+}
+
+.description{
+    min-height: 54px;
+    line-height: 24px;
+}
+.description-p{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 16.5px;
+}
+
+.price-add-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-h4{
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.price-dot{
+    font-size: 12px;
+}
+
+.add-item{
+    border: 0 !important;
+}
+.add-item-btn{
+    align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color .167s cubic-bezier(.4,0,.2,1) 0s,box-shadow .167s cubic-bezier(.4,0,.2,1) 0s,color .167s cubic-bezier(.4,0,.2,1) 0s;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #00754a;
+  width: 96px;
+  height: 32px;
+  padding: 0;
+  font-size: 12px;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px #a3a3a3ad;
+}
