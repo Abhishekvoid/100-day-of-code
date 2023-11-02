@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+body{
+   font-family: 'Bodoni Moda', serif;
+}
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, #041308, #0b3317);
+    border: 2px solid antiquewhite;
+    padding: 8rem;
+}
+
+.Left-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px soild antiquewhite!important;
+}
+
+.border-left-text{
+    border: 1px solid antiquewhite;
+    padding: 39px;
+}
+.Heading{
+    font-size: 3rem;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.subheading{
+    color:antiquewhite;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery{
+    width: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+    border: 1px solid antiquewhite;
+    padding: 15px;
+}
+
+
+.box1, .box4{
+    grid-row: span 2;
+}
+
+.box5, .box7, .box2{
+    grid-column: span 2;
+}
+
