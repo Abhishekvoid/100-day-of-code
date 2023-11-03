@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1600px;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center; 
+    position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 28px;
+  box-sizing: border-box;
+  z-index: 99999;
+  max-width: var(--lg-max-width);
+    
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    margin-right: 36px;
+
+}
+
+.search-bar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  width: 100%;
+  max-width: 725px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #f0f5ff;
+}
+
+.search-svg-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40px;
+    font-size: 16px;
+    fill: gray;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 8px 8px 8px 12px;
+  background-color: transparent;
+}
+
+.search-bar-input{
+    border: 0;
+  outline: 0 none;
+  font-size: 17px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.become-a-seller{
+    padding: 0 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
