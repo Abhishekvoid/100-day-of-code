@@ -1,0 +1,17 @@
+a{
+    display: block;
+    color: #484848;
+}
+li.soscialmedia-links{
+    margin-bottom: 0.75rem;
+    margin-right: 1.25rem;
+}
+
+a.country-chg-btn{
+
+    border-radius: 24px;
+}
+
+.footer-icon{
+    border-bottom: 1px solid #e5e5e5;
+}
