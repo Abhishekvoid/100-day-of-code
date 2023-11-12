@@ -1,0 +1,157 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6f0d69;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.diya{
+    background-color: #f5950e;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0 0 150px 150px;
+    position: absolute;
+}
+
+.flame-container{
+    width:300px;
+    height: 60px;
+    background-color: #ff2400;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    bottom: 18%;
+}
+
+.main-flame {
+    color: #fd5;
+    width: 180px;
+    height: 180px;
+    background-color: #fdf1c2;
+    border-radius: 160px 0;
+    transform: rotate(-45deg);
+    position: relative;
+    left: 29%;
+    top: -84px;
+    opacity: 0.6;
+    
+
+} */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+ /*  background: linear-gradient(#190547 60%, #6031c0 60%); */
+ background-color: #6f0d69;
+ 
+}
+.container {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.diya {
+  height: 150px;
+  width: 300px;
+  background-color: #fdcf0f;
+  border-radius: 0 0 150px 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  overflow: hidden;
+}
+.inside {
+  width: 300px;
+  height: 60px;
+  background-color: #fd500a;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 170px;
+}
+.shadow {
+  height: 60px;
+  width: 320px;
+  background-color: rgba(25, 5, 71, 0.5);
+  position: absolute;
+  bottom: 30px;
+  border-radius: 50%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.flame {
+  height: 170px;
+  width: 170px;
+  background-color: #fdf1c2;
+  border-radius: 160px 0;
+  transform: rotate(-45deg);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  animation: scale-up 2s infinite;
+}
+@keyframes scale-up {
+  50% {
+    transform: rotate(-45deg) scale(1.05);
+    bottom: 42px;
+  }
+}
+.flame:after {
+  content: "";
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-color: #f4c631;
+  border-radius: 120px 0;
+  position: absolute;
+  bottom: 0;
+}
+.light {
+  height: 330px;
+  width: 330px;
+  background-color: rgba(253, 241, 194, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  bottom: 0;
+}
+.light:before,
+.light:after {
+  content: "";
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-color: rgba(253, 241, 194, 0.3);
+  border-radius: 50%;
+  animation: shine 5s linear infinite;
+}
+
+
+
