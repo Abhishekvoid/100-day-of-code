@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+   
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="bg-slate-500">To-do-list</h1>
+     <div class="container w-[100%] h-[100vh] p-[10px]">
+        <div class="todo-list w-[100%] max-w-[540px] bg-slate-300 rounded-[10px]">
+             <h2 class="font-bold text-[#002765] flex items-center mb-[20px]" >To-do List<img class="w-[30px] ml-[10px]"src="To-Do-Img/images/icon.png"></h2>
+             <div class="row flex items-center justify-between bg-[#edeef0] rounded-[30px] pl-[20px] mb-[25px]">
+                <input type="text" id="input-box" class=" flex-1 border-none outline-none bg-transparent p-[10px] " placeholder="Add yout task">
+                <button class="btn-add border-none outline-none bg-[#ff5945] text-[#fff] text-[16px] cursor-pointer rounded-[40px]" onclick="addTask()
+                ">Add</button>
+             </div>
+             <ul id="list-container">
+              <!--  <li class="checked text-[#555] line-through">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+             </ul>
+        </div>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
