@@ -16,3 +16,10 @@ const li = document.querycreateElement('li');
 ul.append(li)
 
 console.log();
+
+const firstListItem = document.querySelector('.list-items');
+
+console.log(firstListItem.innerHTML);
+console.log(firstListItem.innerText);
+console.log(firstListItem.textContent);
+
